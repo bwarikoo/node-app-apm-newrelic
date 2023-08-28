@@ -4,7 +4,6 @@ const express = require('express'),
     methodOverride = require('method-override'),
     // Mitigate XSS using sanitizer
     sanitizer = require('sanitizer'),
-    newrelic = require('newrelic'),
     app = express(),
     port = 8000
 
